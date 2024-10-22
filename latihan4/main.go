@@ -23,7 +23,9 @@ func main() {
 
 	produk1 := Produk{
 		NamaProduk: "Ale-ale",
-		Kuantitas:  1000}
+		Kuantitas:  1000,
+	}
+
 	var wg sync.WaitGroup
 
 	for i := 0; i < 10; i++ {
